@@ -1,0 +1,157 @@
+
+body {
+	font-family: Open Sans,Arial;
+	color: #454545;
+	font-size: 16px;
+	margin: 2em auto;
+	max-width: 800px;
+	padding: 1em;
+	line-height: 1.4;
+	font-weight: 0.2em;
+	text-align: justify;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold; 
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.mfw-blue{
+color: #16a085;
+}    
+.wrong{
+color: #c0392b;
+text-decoration: underline;
+font-weight: 600;
+
+}
+
+ul {
+	list-style-type: disc;
+}
+small {
+font-size: .4em;
+}
+.shitty {
+cursor: not-allowed;
+color: #00e;	
+
+}
+
+a {
+color: #07a;
+    }
+
+a:visited {
+color: #941352;
+}
+
+.violet {
+color: #551a8b;
+cursor: not-allowed;
+}
+ul li img {
+height: 1em;
+}
+
+.carre-444{
+color: #444;
+font-weight: 700;
+}
+.carre-444:before {
+content: "";
+display: inline-block;
+width: 1em;
+height: 1em;
+margin-left: .2em;
+margin-right: .2em;
+background-color: #444;}
+
+.carre-454545 {
+color: #454545;
+font-weight: 700;}
+
+.carre-454545:before {
+content: "";
+display: inline-block;
+width: 1em;
+height: 1em;
+margin-left: .2em;
+margin-right: .2em;
+background-color: #454545;}
+
+.position .image-gauche {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+.image-gauche img {
+
+	width: 100%;
+}
+p.caption {
+	font-size: .7em;
+}
+
+
+blockquote:before {
+    font-family: Times New Roman,Times,Arial;
+    color: #666;
+    content: open-quote;
+    font-size: 2.2em;
+    font-weight: 600;
+    float: left;
+    margin-top: 0;
+    margin-right: .2rem;
+    width: 1.2rem;
+    
+}
+
+blockquote {
+    color: #456;
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+blockquote span {
+    float: left;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+blockquote author {
+    display: block;
+    clear: both;
+    font-size: .6em;
+    margin-left: 2.4rem;
+    font-style: oblique;
+}
+
+blockquote author:before {
+    content: "- ";
+    margin-right: 1em;
+}
+a.kopimi img.kopimi {
+    height: 2em;
+}
+a.kopimi, a.kopimi img.kopimi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
